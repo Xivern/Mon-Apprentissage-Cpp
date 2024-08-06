@@ -31,7 +31,7 @@ int main ()
     // On peut maintenant affiché notre texte et notre variable via les 2 manières suivantes (chevrons ou concaténation) :
     cout << "Votre nom est " << nomUtilisateur + " !" << endl;
     cout << "L'utilisateur a " << ageUtilisateur << " ans !" << endl;
-    cout << ("J'ai ") << monAge << " ans !" << endl;
+    cout << ("J'ai exactement ") << monAge << " ans !" << endl;
 
     return 0;
 }
