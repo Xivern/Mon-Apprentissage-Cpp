@@ -23,7 +23,7 @@ int main ()
     char lettre('g');
 
     // String : Une chaine de caractère
-    string nomUtilisateur("Guillaume Zéphir");
+    string nomUtilisateur("Guillaume Zephir");
 
     // Création d'une référence, permet d'acceder à la même variable via 2 nom différents (ageUtilisateur et monAge)
     int& monAge(ageUtilisateur);
