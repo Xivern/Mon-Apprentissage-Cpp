@@ -15,7 +15,7 @@ int main ()
     cout << "------------------" << endl;
 
     //Autres moyen d'écrire le code :
-    cout << "Hello 2!" << endl << "\" Guillemets 2\"" << endl << "\\Backslash 2" << endl;
+    cout << "Hello !" << endl << "\" Guillemets \"" << endl << "\\Backslash" << endl;
 
     //Important à renseigner : indique la fin de notre fonction main sans erreur
     return 0;
