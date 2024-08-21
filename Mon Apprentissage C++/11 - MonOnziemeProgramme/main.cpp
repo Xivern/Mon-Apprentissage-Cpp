@@ -137,21 +137,19 @@ int main()
     {
     case 1:
         MonfichierCourse.open(filename);
-        MonfichierCourse.seekg(0, ios::end);    //On se déplace à la fin du fichier
-        tailleFichier = MonfichierCourse.tellg();               //On récupère la position qui correspond donc à la taille du fichier
-        cout << "Le fichier fait exactement : " << tailleFichier << " octets !" << endl;
         break;
 
     case 2:
         MonfichierCourse.open(logfile);
-        MonfichierCourse.seekg(0, ios::end);    //On se déplace à la fin du fichier
-        tailleFichier = MonfichierCourse.tellg();               //On récupère la position qui correspond donc à la taille du fichier
-        cout << "Le fichier fait exactement : " << tailleFichier << " octets !" << endl;
         break;
 
     default:
         break;
     }
+
+    MonfichierCourse.seekg(0, ios::end);    //On se déplace à la fin du fichier
+    tailleFichier = MonfichierCourse.tellg();               //On récupère la position qui correspond donc à la taille du fichier
+    cout << "Le fichier fait exactement : " << tailleFichier << " octets !" << endl;
 
     return 0;
 }
