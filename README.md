@@ -1,6 +1,6 @@
 # APPRENTISSAGE DU LANGAGE C++ #
 
-## Repository où sont stockés les programmes que j'ai développé durant mon apprentissage du langage C++. ##
+Repository où sont stockés les programmes que j'ai développé durant mon apprentissage du langage C++.
 
 ### COURS : ###
 
