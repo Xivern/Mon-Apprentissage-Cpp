@@ -4,8 +4,8 @@
 
 ### COURS : ###
 
-> [OpenClassroom] (https://openclassrooms.com/fr/courses/1894236-apprenez-a-programmer-en-c)
+> [OpenClassroom](https://openclassrooms.com/fr/courses/1894236-apprenez-a-programmer-en-c)
 
 ### EXERICE : ###
 
-> [Developpez.com] (https://cpp.developpez.com/tutoriels/exercice-corriges-ihm-debutant/)
+> [Developpez.com](https://cpp.developpez.com/tutoriels/exercice-corriges-ihm-debutant/)
