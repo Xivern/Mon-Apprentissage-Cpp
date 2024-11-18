@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "..\Headers\main.hpp"
+
 using namespace std;
 
 int main()
