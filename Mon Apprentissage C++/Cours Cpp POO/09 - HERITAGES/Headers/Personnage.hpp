@@ -1,0 +1,28 @@
+#ifndef PERSONNAGE_HPP_INCLUDED
+#define PERSONNAGE_HPP_INCLUDED
+
+#include <iostream>
+#include <string>
+
+class Personnage
+{
+    public:
+
+    //METHODES
+        Personnage();
+        Personnage(std::string nomPersonnage);
+
+        void recevoirDegats(int nbDegat);
+        std::string getNomPersonnage() const;
+
+        void attaquer(Personnage &cible) const;
+        void afficherSpecialisation() const;
+
+    private:
+
+    //ATTRIBUTS
+        std::string m_nomPersonnage;
+        int m_pointDeVie;
+};
+
+#endif // PERSONNAGE_HPP_INCLUDED
