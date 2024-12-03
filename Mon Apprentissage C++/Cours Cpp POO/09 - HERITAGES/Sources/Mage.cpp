@@ -37,5 +37,5 @@ void Mage::concentrationDeMana()
 
 void Mage::afficherSpecialisation() const
 {
-    cout << getNomPersonnage() << " est un humain Magicien !" << endl;
+    cout << m_nomPersonnage << " est un humain Magicien !" << endl;
 }

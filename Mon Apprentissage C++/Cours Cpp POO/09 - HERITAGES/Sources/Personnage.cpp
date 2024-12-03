@@ -16,7 +16,7 @@ string Personnage::getNomPersonnage() const
     return m_nomPersonnage;
 }
  
-void Personnage::attaquer(Personnage &cible) const
+void Personnage::coupDePoing(Personnage &cible) const
 {
     cible.recevoirDegats(10);
 }
@@ -24,4 +24,9 @@ void Personnage::attaquer(Personnage &cible) const
 void Personnage::afficherSpecialisation() const
 {
     cout << m_nomPersonnage << " est un humain sans classe !" << endl;
+}
+
+void Personnage::presentationPersonnage() const
+{
+    cout << "Bonjour, je m'appelle " << m_nomPersonnage << " ["<< m_pointDeVie << " HP]." << endl;
 }
