@@ -10,8 +10,10 @@ class Vehicule                              //Signifie que l'on créer la classe
         Vehicule();
         Vehicule(int prixVehicule);
 
-        void affiche() const;               //Affiche une description du Vehicule
+        virtual ~Vehicule();                //Remarquez le 'virtual' ici
 
+        virtual void affiche() const;       //virtual permet de déclarer une méthode virtuelle
+                                            //Ingrédient n° 1 : Permet d'utiliser des fonctions lorsque des classes filles sont placé en paramètre        
     protected:
 
         int m_prix;                         //Prix du vehicule

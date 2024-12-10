@@ -12,8 +12,9 @@ class Moto : public Vehicule                //Signifie que l'on créer une class
         Moto();
         Moto(int prixVehicule, double vitesseMax);
 
-        void affiche() const;               //Affiche une description de la voiture
+        virtual ~Moto();                    //Remarquez le 'virtual' ici
 
+        virtual void affiche() const;       //Ingrédient n° 1 : virtual permet de déclarer une méthode virtuelle
     private:
 
         double m_vitesse;                   //La vitesse maximale de la moto

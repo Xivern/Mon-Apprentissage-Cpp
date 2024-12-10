@@ -12,7 +12,9 @@ class Voiture : public Vehicule              //Signifie que l'on créer une clas
         Voiture();
         Voiture(int prixVehicule, int nombrePorte);
 
-        void affiche() const;               //Affiche une description de la voiture
+        virtual ~Voiture();                 //Remarquez le 'virtual' ici
+
+        virtual void affiche() const;       //Ingrédient n° 1 : virtual permet de déclarer une méthode virtuelle
 
     private:
 

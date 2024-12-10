@@ -17,16 +17,16 @@ SRC=Sources
 # executable name
 EXEC=main
  
-all: $(EXEC)																	#We execute line 17 of our makefile
+all: $(EXEC)																						#We execute line 17 of our makefile
 
-main: 	$(SRC)/main.cpp $(SRC)/Vehicule.o $(SRC)/Voiture.o $(SRC)/Moto.o		#creation of the main file + .o files
+main: 	$(SRC)/main.cpp $(SRC)/Vehicule.o $(SRC)/Voiture.o $(SRC)/Moto.o $(SRC)/FctVehicule.o		#creation of the main file + .o files
 	$(CC) $(INC) -o $(EXEC) $^ $(CFLAGS)
 
-$(SRC)/%.o : $(SRC)/%.cpp														#Can be translated as : gcc -I include/ -o ChainList.o -c ChainList.c -W -Wall...
+$(SRC)/%.o : $(SRC)/%.cpp																			#Can be translated as : gcc -I include/ -o ChainList.o -c ChainList.c -W -Wall...
 	$(CC) $(INC) -o $@ -c $< $(CFLAGS) 
 
-launch:																			#make launch execute the program
+launch:																								#make launch execute the program
 	.\$(EXEC).exe
 
-clean:																			#make clean deletes all .o files
+clean:																								#make clean deletes all .o files
 	del $(SRC)\*.o
