@@ -12,4 +12,11 @@
  */
 void infoVehicule(Vehicule const& vehicule);
 
+/*
+ * Fonction qui renvoie le nombre de roue concernant le véhicule renseigné en paramètre
+ * - vehicule : Objet de la classe voiture ou ses classes filles
+ * Valeur retournée : entier positif concernant le nombre de roue du vehicule
+ */
+int nombreRoueVehicule(Vehicule const& vehicule);
+
 #endif // FCTVEHICULE_HPP_INCLUDED

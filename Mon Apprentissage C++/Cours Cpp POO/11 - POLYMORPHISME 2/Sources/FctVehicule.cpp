@@ -4,3 +4,8 @@ void infoVehicule(Vehicule const& vehicule)                     // Ingrédient n
 {
     vehicule.affiche();
 }
+
+int nombreRoueVehicule(Vehicule const& vehicule)
+{
+    return vehicule.nbrRoues();
+}
